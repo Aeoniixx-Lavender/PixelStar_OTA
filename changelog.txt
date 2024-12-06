@@ -1,0 +1,6 @@
+> Rom: Project PixeStar
+> Build Type: Unofficial 
+> Device: Redmi Note 7/7s (Lavender)
+> Maintainer: Aeoniixx
+  
+> Device Specific Changelog:
