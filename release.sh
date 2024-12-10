@@ -16,8 +16,8 @@ MAINTAINER="Aeoniixx"
 FILENAME=$(basename $ROM)
 SIZE=$(du -b $ROM | cut -f1 -d '	')
 VERSION=$(echo $FILENAME | cut -f2 -d '-')
-ROMTYPE=$(echo $FILENAME | cut -f5 -d '-')
-DEVICE=$(echo $FILENAME | cut -f4 -d '-')
+ROMTYPE=$(echo $FILENAME | cut -f6 -d '-')
+DEVICE=$(echo $FILENAME | cut -f5 -d '-')
 
 MD5SUM=$(md5sum $ROM | cut -f1 -d " ")
 SHA256SUM=$(echo ${TIMESTAMP}${DEVICE}${SDK_LEVEL} | sha256sum | cut -f 1 -d ' ')
